@@ -1,0 +1,12 @@
+{
+    "extends": "airbnb-base",
+    "plugins": [
+        "import"
+    ],
+    "rules": {
+        "brace-style": ["error", "stroustrup", { "allowSingleLine": true }],
+        "comma-dangle": "off",
+        "class-methods-use-this": "off",
+        "no-underscore-dangle": "off"
+    }
+}
